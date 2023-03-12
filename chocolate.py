@@ -11,7 +11,7 @@ def calculate_ingredients(manteca_de_cacao):
     vainilla_gramos = manteca_de_cacao * 0.005 * 4.2  # Convertir cucharaditas a gramos (1 cucharadita = 4.2 gramos)
     return cacao_en_polvo, azucar, brandy_gramos, vainilla_gramos
 
-st.set_page_config(page_title="Calculadora de ingredientes para barra de chocolate amargo con brandy", page_icon=":chocolate_bar:")
+st.set_page_config(page_title="Calculadora de ingredientes para barra de chocolate amargo con brandy wawinense", page_icon=":chocolate_bar:")
 
 st.title("Calculadora de ingredientes para barra de chocolate amargo con brandy")
 

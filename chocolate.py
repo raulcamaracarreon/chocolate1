@@ -3,7 +3,7 @@ import pandas as pd
 import base64
 from io import BytesIO
 from PIL import Image
-import pdfkit
+
 
 def calculate_ingredients(manteca_de_cacao):
     cacao_en_polvo = manteca_de_cacao * 0.25

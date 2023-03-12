@@ -11,9 +11,9 @@ def calculate_ingredients(manteca_de_cacao):
     vainilla_gramos = manteca_de_cacao * 0.005 * 4.2  # Convertir cucharaditas a gramos (1 cucharadita = 4.2 gramos)
     return cacao_en_polvo, azucar, brandy_gramos, vainilla_gramos
 
-st.set_page_config(page_title="Calculadora de ingredientes para barra de chocolate amargo con brandy wawinense", page_icon=":chocolate_bar:")
+st.set_page_config(page_title="Calculadora de ingredientes para barra de chocolate amargo con brandy", page_icon=":chocolate_bar:")
 
-st.title("Calculadora de ingredientes para barra de chocolate amargo con brandy wawinense")
+st.title("Calculadora de ingredientes para barra de chocolate amargo con brandy")
 
 manteca_de_cacao = st.number_input("Cantidad de manteca de cacao (en gramos)", min_value=0.0, step=1.0, value=150.0)
 
@@ -34,6 +34,7 @@ b64 = base64.b64encode(csv.encode()).decode()
 href = f'<a href="data:file/csv;base64,{b64}" download="receta_chocolate_amargo.csv">Descargar receta</a>'
 st.markdown(href, unsafe_allow_html=True)
 
+st.write("Raúl Cámara, march, 2023")
 
 
 

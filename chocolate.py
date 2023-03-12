@@ -46,7 +46,7 @@ st.write("4. Vierte la mezcla de chocolate en un molde para barras de chocolate.
 
 st.write("5. Refrigera la barra de chocolate durante al menos 30 minutos, o hasta que se haya endurecido por completo.")
 
-st.write("6 .Desmolda la barra de chocolate y córtala en porciones individuales. Sirve y disfruta de tu deliciosa barra de chocolate amargo con brandy.")
+st.write("6. Desmolda la barra de chocolate y córtala en porciones individuales. Sirve y disfruta de tu deliciosa barra de chocolate amargo con brandy.")
 
 
 

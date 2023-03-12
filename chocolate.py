@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import base64
 from io import BytesIO
-from PIL import Image
+
 
 
 def calculate_ingredients(manteca_de_cacao):

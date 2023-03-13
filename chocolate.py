@@ -20,7 +20,7 @@ manteca_de_cacao = st.number_input("Cantidad de manteca de cacao (en gramos)", m
 cacao_en_polvo, azucar, brandy_gramos, vainilla_gramos = calculate_ingredients(manteca_de_cacao)
 
 data = {
-    "Ingrediente": ["Manteca de cacao", "Cacao en polvo sin azúcar", "Azúcar de coco o de caña", "Brandy", "Extracto de vainilla"],
+    "Ingrediente": ["Manteca de cacao", "Cacao en polvo sin azucar", "Azucar, jarabe o endulzante", "Brandy", "Extracto de vainilla"],
     "Cantidad": [manteca_de_cacao, cacao_en_polvo, azucar, brandy_gramos, vainilla_gramos],
     "Unidad": ["gramos", "gramos", "gramos", "gramos", "gramos"]
 }

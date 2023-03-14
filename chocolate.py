@@ -20,9 +20,9 @@ cacao_en_polvo, azucar, brandy_gramos, vainilla_gramos = calculate_ingredients(m
 total = manteca_de_cacao + cacao_en_polvo + azucar + brandy_gramos + vainilla_gramos
 
 data = {
-    "Ingrediente": ["Manteca de cacao", "Cacao en polvo sin azucar", "Azucar, jarabe o endulzante", "Brandy", "Extracto de vainilla", "*TOTAL*"],
+    "Ingrediente": ["Manteca de cacao", "Cacao en polvo sin azucar", "Azucar, jarabe o endulzante", "Brandy", "Extracto de vainilla", "TOTAL"],
     "Cantidad": [manteca_de_cacao, cacao_en_polvo, azucar, brandy_gramos, vainilla_gramos, total],
-    "Unidad": ["gramos", "gramos", "gramos", "gramos", "gramos", "*gramos*"]
+    "Unidad": ["gramos", "gramos", "gramos", "gramos", "gramos", "gramos"]
 }
 
 df = pd.DataFrame(data)

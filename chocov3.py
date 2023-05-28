@@ -13,7 +13,7 @@ def calculate_ingredients(manteca_de_cacao):
 
 st.set_page_config(page_title="Calculadora de ingredientes para barra de chocolate amargo con brandy y leche", page_icon=":chocolate_bar:")
 
-st.markdown("<h1 style='text-align: center; font-weight: bold;'>Calculadora de ingredientes para barra de chocolate amargo con brandy</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; font-weight: bold;'>Calculadora de ingredientes para barra de chocolate amargo con brandy y leche</h1>", unsafe_allow_html=True)
 
 manteca_de_cacao = st.number_input("Cantidad de manteca de cacao (en gramos)", min_value=0.0, step=1.0, value=150.0)
 

@@ -11,7 +11,7 @@ def calculate_ingredients(manteca_de_cacao):
     lecitina_soya = manteca_de_cacao * 0.01  # Cantidad de lecitina de soya añadida (ajusta el valor según tus necesidades)
     return cacao_en_polvo, azucar, brandy_gramos, vainilla_gramos, leche_polvo, lecitina_soya
 
-st.set_page_config(page_title="Calculadora de ingredientes para barra de chocolate amargo con brandy", page_icon=":chocolate_bar:")
+st.set_page_config(page_title="Calculadora de ingredientes para barra de chocolate amargo con brandy y leche", page_icon=":chocolate_bar:")
 
 st.markdown("<h1 style='text-align: center; font-weight: bold;'>Calculadora de ingredientes para barra de chocolate amargo con brandy</h1>", unsafe_allow_html=True)
 
